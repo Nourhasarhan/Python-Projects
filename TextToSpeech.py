@@ -79,7 +79,7 @@ def download():
 
 
 #icon
-image_icon= PhotoImage(file="images\speaker.png")
+image_icon= PhotoImage(file="images\\speaker.png")
 root.iconphoto(False, image_icon)
 
 #Top Frame
@@ -87,7 +87,7 @@ top_frame = Frame(root, bg="white", width=900, height=100)
 top_frame.place(x=0,y=0)
 
 
-logo= PhotoImage(file="images\speakLogo.png") 
+logo= PhotoImage(file="images\\speakLogo.png") 
 Label(top_frame, image=logo, bg="white").place(x=10, y=5)
 Label(top_frame, text="TEXT TO SPEECH", font= "arial 20 bold", bg="white", fg="black").place(x=100, y=30)
 
@@ -112,12 +112,12 @@ speed_combobox.set('Normal')
 
 
 ####
-imageicon=PhotoImage(file="images\speaker.png")
+imageicon=PhotoImage(file="images\\speaker.png")
 btn = Button(root, text="Speak", compound=LEFT, image=imageicon, width=130, font="arial 14 bold", command=speaknow)
 btn.place(x=550, y= 280)
 
 ####
-imageicon2=PhotoImage(file="images\downloader.png")
+imageicon2=PhotoImage(file="images\\downloader.png")
 btn = Button(root, text="Save", compound=LEFT, image=imageicon2, width=130,bg="#39c790" ,font="arial 14 bold", command=download)
 btn.place(x=730, y= 280)
 
