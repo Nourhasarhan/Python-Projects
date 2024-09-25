@@ -11,7 +11,7 @@ This is a simple **Text to Speech** (TTS) application built using **Python** and
 
 ## Demo
 
-![App Demo](images/screenshot.png) *(Add a screenshot of your application here)*
+![App Demo](images/screenshot.png) 
 
 ## Installation
 
